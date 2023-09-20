@@ -1,3 +1,7 @@
+### 零、环境准备
+
+[Ai-studio开发机器申请链接](https://github.com/PaddlePaddle/community/tree/master/pfcc/call-for-contributions#%E9%A3%9E%E6%A1%A8%E7%BA%BF%E4%B8%8A%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83ai-studio)
+
 ### 一、参考学习文档
 
 #### IR&Pass Infra 相关
