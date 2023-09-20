@@ -19,18 +19,20 @@
 
 #### Fuse kernel 迁移至 Phi 与新 IR Fuse op 定义自动生成
 
-1. 参考示例 multihead_matmul
+| Op                                                    | 后端 | PR链接                                            | 优先级 | 备注 |
+| ----------------------------------------------------- | ---- | ------------------------------------------------- | ------ | ---- |
+| multihead_matmul                                      | gpu  | https://github.com/PaddlePaddle/Paddle/pull/56846 | P0     | done |
+| conv2d_fusion                                         | gpu  |                                                   | P0     |      |
+| skip_layernorm                                        | gpu  |                                                   | P0     |      |
+| fused_multi_transformer                               | gpu  |                                                   | P0     |      |
+| multihead_matmul_roformer                             |      |                                                   | P0     |      |
+| fused_embedding_eltwise_layernorm                     |      |                                                   | P0     |      |
+| fuse_eleadd_transpose                                 |      |                                                   |        |      |
+| layernorm_shift_partition                             |      |                                                   |        |      |
+| fusion_transpose_flatten_concat                       |      |                                                   |        |      |
+| fusion_repeated_fc_relu                               | cpu  |                                                   |        |      |
+| layernorm_shift_partition                             |      |                                                   |        |      |
+| 待梳理 paddle/fluid/operators/fused 目录下所有fuse op |      |                                                   |        |      |
 
-   https://github.com/PaddlePaddle/Paddle/pull/56846
 
-2. conv2d_fusion
-3. skip_layernorm
-4. fuse_eleadd_transpose
-5. fused_embedding_eltwise_layernorm
-6. layernorm_shift_partition
-7. multihead_matmul_roformer
-8. fusion_transpose_flatten_concat
-9. 
 
-#### Pass 推全
-1. 
