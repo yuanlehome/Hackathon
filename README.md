@@ -25,4 +25,12 @@
 
 2. conv2d_fusion
 3. skip_layernorm
-4. ...
+4. fuse_eleadd_transpose
+5. fused_embedding_eltwise_layernorm
+6. layernorm_shift_partition
+7. multihead_matmul_roformer
+8. fusion_transpose_flatten_concat
+9. 
+
+#### Pass 推全
+1. 
