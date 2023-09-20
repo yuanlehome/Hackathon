@@ -2,7 +2,7 @@
 
 #### IR&Pass Infra 相关
 
-- IR Infra 开发 https://github.com/PaddlePaddle/Paddle/issues/55205
+- IR Infra 设计 https://github.com/PaddlePaddle/Paddle/issues/55205
 
 - Pass Infra 开发 https://github.com/PaddlePaddle/Paddle/pull/54738 以及 PR 描述关联链接
 
