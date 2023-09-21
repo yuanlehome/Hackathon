@@ -1,12 +1,17 @@
 ### 零、环境准备
 
-[Ai-studio开发机器申请链接](https://github.com/PaddlePaddle/community/tree/master/pfcc/call-for-contributions#%E9%A3%9E%E6%A1%A8%E7%BA%BF%E4%B8%8A%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83ai-studio)
+1. 机器申请 [Ai-studio开发机器申请链接](https://github.com/PaddlePaddle/community/tree/master/pfcc/call-for-contributions#%E9%A3%9E%E6%A1%A8%E7%BA%BF%E4%B8%8A%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83ai-studio)
+
+2. 编译Paddle
+```shell
+cmake ..  -GNinja -DPY_VERSION=3.8 -DON_INFER=ON -DWITH_TESTING=ON -DWITH_INFERENCE_API_TEST=OFF -DWITH_MKL=ON -DWITH_GPU=ON -DWITH_MKLDNN=ON -DWITH_CUSTOM_DEVICE=OFF -DWITH_DISTRIBUTE=OFF
+```
 
 ### 一、参考学习文档
 
 #### IR&Pass Infra 相关
 
-- IR Infra 设计 https://github.com/PaddlePaddle/Paddle/issues/55205
+- IR Infra 设计 https://github.com/PaddlePaddle/Paddle/issues/55205 以及关联链接
 
 - Pass Infra 开发 https://github.com/PaddlePaddle/Paddle/pull/54738 以及 PR 描述关联链接
 
@@ -41,7 +46,7 @@
 
 
 #### Pass 推全
-1. 
+1. TODO
 
 
 #### 常量折叠 Pass 与新 IR Infra 关键机制设计与实现
